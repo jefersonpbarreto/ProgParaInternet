@@ -12,7 +12,20 @@ header, footer {
     color: white;
     background-color: rgb(27, 164, 238);
     clear: left;
-    text-align: center;
+    text-align: left;
+	position: relative
+}
+footer {
+	background: #79DFF8;
+	text-align: center;
+}
+
+header {
+	height: 150px;
+}
+
+header, img {
+	align-content: left;
 }
 
 nav {
@@ -30,12 +43,25 @@ nav ul {
 nav ul a {
     text-decoration: none;
 }
+nav li {
+	width: 130px;
+	background: yellow;
+	margin-bottom: 2px;
+	text-align: center;
+}
 
 article {
     margin-left: 170px;
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
+}
+#titulo {
+	width: 40%;
+	position: relative;
+	float: right;
+	text-align: center;
+
 }
 </style>
 </head>
@@ -44,13 +70,16 @@ article {
 <div class="container">
 
 <header>
-	<img src="logo_flf.png" alt="lofo_flf" width="20%">
-   <h1>City Gallery</h1>
+		<img src="logo_flf.png" alt="lofo_flf" width="35%">
+	<div id="titulo">
+		<h1>Programação Para Internet</h1>
+		<h3>Guia de Atividades</h3>
+	</div>
 </header>
   
 <nav>
   <ul>
-    <li><a href="Teste/vivaldi.html">Aula 04</a></li>
+    <li><a href="aula04/index.html" target="_blank">Aula 04</a></li>
     <li><a href="#">Aula 07</a></li>
     <li><a href="#">Aula 08</a></li>
   </ul>
@@ -58,11 +87,11 @@ article {
 
 <article>
   <h1>Antonio Jeferson Pereira Barreto</h1>
-  <p></p>
+  <p>Uma breve descrição..."</p>
   <p></p>
 </article>
 
-<footer>Copyright &copy; W3Schools.com</footer>
+<footer>Copyright. Jeferson B.</footer>
 
 </div>
 

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Aula 07</title>
+	</head>
+	<body>
+		<div id="instrucao" onmouseover="entra();" onmouseout="sai();" onclick="clicou();">Clique Aqui!</div>
+	</body>
+
+	<script>
+
+			var ins = document.querySelector("#instrucao");
+			
+			ins.style.background = "gray";
+			ins.style.color = "white";
+			ins.style.width = "10%";
+			var num = 0;
+			function clicou() {
+				var texto = "Clicou(" + a +")!";
+				ins.textContent = "texto";
+			}
+			function entra() {
+				ins.style.background = "#09A1CF";
+			}
+			function sai() {
+				ins.style.background = "#0DF333";
+			}
+
+	</script>
+</html>
