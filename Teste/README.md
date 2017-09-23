@@ -1,2 +1,2 @@
-# http://jefersonpbarreto.github.com/Teste
+# http://jefersonpbarreto.github.io
 Programação Para Internet
